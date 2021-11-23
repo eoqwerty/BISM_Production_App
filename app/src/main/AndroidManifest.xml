@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bismapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BISMApp.NoActionBar">
+        <activity android:name=".GiveConfirmation"></activity>
+        <activity android:name=".AskConfirmation">
+            android:screenOrientation="portrait"
+        </activity>
+        <activity android:name=".AssociateNavigationActivity" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BISMApp.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".YourTeams"
+            android:label="@string/your_teams"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BISMApp.NoActionBar" />
+        <activity
+            android:name=".CreateTeam"
+            android:label="@string/create_team"
+            android:parentActivityName=".YourTeams"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BISMApp.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".EditTeam"
+            android:label="Edit the selected team&apos;s information"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BISMApp.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui.modifyTeams.ChangeMemberTeam"
+            android:label="Change the team of the selected member"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BISMApp.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
