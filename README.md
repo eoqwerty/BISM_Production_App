@@ -1,6 +1,6 @@
 # Team-E: "Our Progress" production tracker app for the Blind Institutes of Maryland
 
-# Watch the App Demo: 
+# Watch the App Demo!: 
 https://drive.google.com/file/d/1XMp5eKFzcar8Wl2TEUEspLq0OpuFnxsw/view?usp=sharing
 
 # Background:
