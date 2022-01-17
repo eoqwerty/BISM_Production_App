@@ -1,7 +1,8 @@
 # Team-E: "Our Progress" production tracker app for the Blind Institutes of Maryland
 
 # Watch the App Demo!: 
-https://drive.google.com/file/d/1XMp5eKFzcar8Wl2TEUEspLq0OpuFnxsw/view?usp=sharing
+(Talk back feature demo begins at 1:43)
+https://youtu.be/42j4glqiL_g
 
 # Background:
 The Blind Industries and Services of Maryland is a facility that hires mostly vision impaired, deaf
